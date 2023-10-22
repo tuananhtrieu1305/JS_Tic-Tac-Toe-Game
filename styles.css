@@ -1,0 +1,217 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+input,
+select,
+textarea,
+button,
+a,
+img,
+label {
+  font-family: inherit;
+  font-size: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  font-family: "Permanent Marker", cursive;
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background-color: #333;
+  border: 5px solid #eee;
+  border-radius: 20px;
+  padding: 40px;
+  text-align: center;
+}
+h1 {
+  color: #fff;
+  font-size: 35px;
+  user-select: none;
+}
+.cell-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid lightgray;
+  margin-top: 30px;
+}
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 2px solid lightgray;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: greenyellow;
+}
+h2 {
+  font-size: 30px;
+  color: #fff;
+  margin-top: 40px;
+  user-select: none;
+}
+#restartBtn {
+  background-color: #555;
+  border: 3px solid lavenderblush;
+  border-radius: 10px;
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  display: inline-block;
+  user-select: none;
+  margin-top: 30px;
+}
